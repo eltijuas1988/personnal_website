@@ -1,0 +1,263 @@
+/************************************************************************************
+                GENERAL
+************************************************************************************/
+
+a {
+	text-decoration: none;
+	}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+  }
+
+img {
+  max-width: 100%;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto 0;
+  padding: 0 5%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/************************************************************************************
+                HEADING
+************************************************************************************/
+
+header {
+	float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#yep {
+	text-align: center;
+	margin: 0;
+}
+
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 1.15;
+
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+
+
+/************************************************************************************
+                NAVIGATION
+************************************************************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #32673F;
+}
+
+
+/************************************************************************************
+                PAGE: FIRST-PAGE
+************************************************************************************/
+
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li  {
+  width: 80%;
+  margin: 0 auto 50px auto;
+}
+
+.pic {
+  display: block;
+  border-radius: 5%;
+  border: 3px solid #878787;
+}
+
+#gallery li p {
+  margin: 0px 0 10px 0;
+  padding: 15px 0 0 10px;
+  font-size: 1em;
+}
+
+#gallery li:nth-child(4n) {
+  clear: left;
+}
+
+
+/************************************************************************************
+                PAGE: ABOUT
+************************************************************************************/
+.pro-pic {
+  display: block;
+  max-width: 150px;
+  float: center;
+  border-radius: 95%;
+  border: 3px solid #878787;
+  margin: 0 auto 30px;
+}
+
+#about {
+  text-align: center;
+}
+
+#life_story {
+  margin: 0 1em 20em 1em;
+}
+
+#fb {
+  color: blue;
+}
+
+
+/************************************************************************************
+                PAGE: CONTACT INFO
+************************************************************************************/
+
+.contact {
+  list-style: none;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+}
+
+.contact a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 25px;
+  margin: 0 0 10px 0px;
+}
+
+.phone a {
+  background-image: url('../Pics/phone.png');
+}
+
+.mail a {
+  background-image: url('../Pics/mail.png');
+}
+
+.twitter a {
+  background-image: url('../Pics/twitter.png');
+}
+
+.linkedin a {
+  background-image: url('../Pics/linkedin.png');
+}
+
+#primary, #secondary {
+  float: left;
+  width: 80%;
+  padding: 0 10px 0 20px;
+  margin: 0 0px 55px 0;
+  background-color: ;
+}
+
+#primary p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/************************************************************************************
+                FOOTER
+************************************************************************************/
+
+footer {
+  font-size: 0.75em;
+  clear: both;
+  text-align: center;
+	margin-bottom: 10%
+}
+
+.social-logo {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+}
+
+/************************************************************************************
+                COLORS
+************************************************************************************/
+
+body {
+  background-color: #fff;
+  color: #414143;
+}
+
+/*green header*/
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+h1, h2, h4 {
+  color: #fff;
+}
+
+a {
+  color: #6ab47b;
+}
+
+/*Nav background color(green) on mobile devices*/
+
+nav {
+  background: #599a68;
+}
+
+/*Nav links*/
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/*Selected nav link*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
