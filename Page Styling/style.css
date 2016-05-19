@@ -31,15 +31,15 @@ h3 {
 ************************************************************************************/
 
 header {
-	float: left;
+  float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
 }
 
 #yep {
-	text-align: center;
-	margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 
@@ -227,14 +227,14 @@ footer {
 ************************************************************************************/
 
 body {
-  background-color: #fff;
+  background-image: url('../Pics/46.jpg');
   color: #414143;
 }
 
 /*green header*/
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #C5000E;
+  border-color: #FF0013;
 }
 
 h1, h2, h4 {
@@ -248,7 +248,7 @@ a {
 /*Nav background color(green) on mobile devices*/
 
 nav {
-  background: #599a68;
+  background: #C5000E;
 }
 
 /*Nav links*/
