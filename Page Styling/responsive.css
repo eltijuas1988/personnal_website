@@ -5,12 +5,15 @@
   /************************
   TWO COLUMN LAYOUT
   *************************/
-
+  #gallery li  {
+    width: 65%;
+    margin: 0 auto 50px auto;
+  }
 
 
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 780px) {
 
   /************************
   PAGE: HEADER
@@ -61,8 +64,14 @@
   #gallery li {
     float: left;
     width: 28.3333%;
+    height: 28.3333%;
     margin: 2.5%;
     color: #414143;
+  }
+
+  #gallery li img {
+    height: 200px;
+    width: 200px;
   }
 
   #gallery li a p {

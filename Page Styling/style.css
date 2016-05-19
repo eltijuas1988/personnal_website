@@ -108,7 +108,7 @@ nav a.selected, nav a:hover {
 }
 
 #gallery li  {
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto 50px auto;
 }
 
@@ -116,6 +116,8 @@ nav a.selected, nav a:hover {
   display: block;
   border-radius: 5%;
   border: 3px solid #878787;
+  height: 290px;
+  width: 290px;
 }
 
 #gallery li p {
